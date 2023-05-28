@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="WebOrderTestII" key="{D1F750AE-D3D4-4D29-BCC8-3ACFE8EACBED}" path="WebOrderTestII.js" />
+		<child name="WebOrderXBrowser" key="{BEA15136-169E-41DA-9C82-B71EC277E506}" path="WebOrderXBrowser.js" />
+		<child name="BitBarIntegration" key="{6A6956B3-7C28-4CAF-8C99-22B13E019D96}" path="BitBarIntegration.js" />
+		<child name="mobileTestScripted" key="{9594BCEB-283D-46D4-8682-3E5E973012A5}" path="mobileTestScripted.js" />
+	</children>
+</Root>

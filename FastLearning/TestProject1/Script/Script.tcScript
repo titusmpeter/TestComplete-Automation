@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="htmlLinkClick" key="{01EC3D3C-C61D-458F-8282-C3C1EE86364E}" path="htmlLinkClick.js" />
+		<child name="WebOrderNameMapping" key="{72FC4A5C-5B9F-487A-B256-395565226EB6}" path="WebOrderNameMapping.js" />
+		<child name="WebOrderXpath" key="{38FAF92B-DCE0-42A2-BAF7-73B97E419082}" path="WebOrderXpath.js" />
+		<child name="SoapAPI1" key="{39F04EF7-65DF-4C38-9CFA-A0DE21ACBF9A}" path="SoapAPI1.js" />
+		<child name="SoapAPI2" key="{207815DA-B5A1-452D-A44B-454445FDB1C6}" path="SoapAPI2.js" />
+	</children>
+</Root>

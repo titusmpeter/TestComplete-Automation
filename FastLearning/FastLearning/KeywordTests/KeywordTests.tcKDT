@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="OrdersApp" key="{41EABCC2-94DE-4E19-8D26-70A2C858DBFF}" path="OrdersApp.tcKDTest" />
+		<child name="OrdersDDTLoop" key="{A44F04D5-4316-437A-BC72-657510F990CC}" path="OrdersDDTLoop.tcKDTest" />
+		<child name="LogDisplayInFolders" key="{1E9B0CF4-7CBB-4EA1-A13D-FFB176678881}" path="LogDisplayInFolders.tcKDTest" />
+		<child name="OrdersDDTwithInternalTable" key="{6C0AEA75-EAB4-4793-BCB6-438E0577A59F}" path="OrdersDDTwithInternalTable.tcKDTest" />
+	</children>
+</Root>

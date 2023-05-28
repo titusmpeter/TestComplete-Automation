@@ -1,0 +1,15 @@
+﻿function soapTest()
+{
+ WebServices.WebService1.Mult(4,5);
+ XML.Mult.Check(WebServices.WebService1);
+}
+
+function callPerson()
+{
+  var person;
+  person = WebServices.WebService1.GetPerson();
+  if (person.FirstName == "Fred")
+  {
+    Log.Message("All good!");
+  }
+}

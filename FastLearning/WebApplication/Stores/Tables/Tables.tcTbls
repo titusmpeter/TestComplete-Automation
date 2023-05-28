@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="15.0">
+	<children>
+		<child name="panelListOfAllOrders" key="{1A27BEA6-AB67-425A-8ACB-70827EA56AE5}" path="panelListOfAllOrders.tcTbl" />
+		<child name="panelListOfAllOrders1" key="{251C6041-B6F3-481C-8E4E-391418DFB69C}" path="panelListOfAllOrders1.tcTbl" />
+	</children>
+</Root>

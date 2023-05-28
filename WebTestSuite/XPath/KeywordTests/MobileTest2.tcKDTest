@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{10718CBB-13AC-43A3-9887-BDDB0728A226}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{0CAB7DC6-68EA-472F-AAFD-F1EA1701087E}">
+				<Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="HubUrl" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://appium.bitbar.com/wd/hub/" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar_target&quot;:&quot;android&quot;,&quot;bitbar_findDevice&quot;:true,&quot;bitbar_device&quot;:&quot;Google Pixel 3a Android 12&quot;,&quot;deviceName&quot;:&quot;Google Pixel 3a Android 12&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar_app&quot;:&quot;171703292&quot;}" />
+						<Parameter Name="ConnectTimeoutSec" DefVarType="12" VarType="257" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{DB69EC30-6D34-452C-ABFB-253A78823BAD}" />
+</Root>

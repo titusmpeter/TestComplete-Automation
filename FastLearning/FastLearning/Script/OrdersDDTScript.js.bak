@@ -1,0 +1,64 @@
+﻿let orders;
+let orderForm;
+let groupBox;
+let textBox;
+
+function runLoop()
+{
+  TestedApps.Orders.Run();
+  DDT.CSVDriver("C:\\Users\\petertitus\\Documents\\TestComplete 15 Projects\\Resources\\OrdersDDT.txt");
+  DDT.CurrentDriver.DriveMethod("OrdersDDTScript.ordersApp");  
+  
+  checkPoints();
+  closeApp();
+}
+
+function ordersApp()
+{
+  //TestedApps.Orders.Run();
+  //Log.AppendFolder("LogFolder");
+  //Log.AppendFolder(DDT.CurrentDriver.Value("Customer Name"));
+  Log.AppendFolder(DDT.CurrentDriver.Value(0)); //index 0 fetches values from the 1st column (customer name) in the csv file and uses the values as names for log folders
+  orders = Aliases.Orders;
+  orders.MainForm.MainMenu.Click("Orders|New order...");
+  orderForm = orders.OrderForm;
+  groupBox = orderForm.Group;
+  groupBox.ProductNames.ClickItem("ScreenSaver");
+  groupBox.Quantity.wValue = 5;
+  textBox = groupBox.Discount;
+  textBox.SetText("5%");
+  textBox = groupBox.Customer;
+  textBox.SetText(DDT.CurrentDriver.Value("Customer Name"));
+  textBox = groupBox.Street;
+  textBox.SetText(DDT.CurrentDriver.Value("Street"));
+  textBox = groupBox.State;
+  textBox.SetText(DDT.CurrentDriver.Value("State"));
+  textBox = groupBox.City;
+  textBox.SetText(DDT.CurrentDriver.Value("City"));
+  textBox = groupBox.Zip;
+  textBox.SetText(DDT.CurrentDriver.Value("Zip"));
+  groupBox.AE.ClickButton();
+  textBox = groupBox.CardNo;
+  textBox.SetText(DDT.CurrentDriver.Value("Card No"));
+  groupBox.ExpDate.wDate = "2010-05-06";
+  groupBox.Date.wDate = "2007-04-06";
+  orderForm.ButtonOK.ClickButton();
+  Log.PopLogFolder();
+}
+
+function checkPoints()
+{
+     //Property Checkpoint
+     aqObject.CheckProperty(Aliases.Orders.MainForm.OrdersView, "wItemCount", cmpEqual, 4);
+         
+     //Table Checkpoint
+     Tables.OrdersView2.Check();
+}
+
+function closeApp()
+{  
+  orders = Aliases.Orders;
+  orders.MainForm.Close();
+  orders.dlgConfirmation.btnNo.ClickButton();
+}
+

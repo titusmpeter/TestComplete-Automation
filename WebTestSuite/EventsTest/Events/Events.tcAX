@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{108F8900-78F9-44EC-A845-A1FB6B0795A0}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{14C0DA78-664D-4E62-BE0E-EDBBC4895EF5}">
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{9443B729-E38E-4887-893A-8140935609AF}" generatedTLBKey="{CB774012-2053-4A23-B480-CEE9DB8D41AC}" generatedEventsKey="{1EB7FBBA-A5F0-4302-8A2A-1E13D18D1997}" generatedTLBDesc="TestComplete EventControl1 Control - 13/11/2022 10:46:50">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743816" infoControlName="General Events" infoEventName="OnLogCreateNode" infoEventRealName="OnLogCreateNode" infoDescription="Occurs when a parent node is created in the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743817" infoControlName="General Events" infoEventName="OnLogCloseNode" infoEventRealName="OnLogCloseNode" infoDescription="Occurs when the currently active parent node is closed in the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743812" infoControlName="General Events" infoEventName="OnLogEvent" infoEventRealName="OnLogEvent" infoDescription="Occurs when an event notification is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{17CEDA71-1EFE-4CF0-8FE3-F2B949EC7028}" infoID="1610678275" infoControlName="Web Testing Events" infoEventName="OnWebDownloadFinished" infoEventRealName="OnWebDownloadFinished" infoDescription="Occurs when the downloading of a Web page is completed, halted or failed." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{17CEDA71-1EFE-4CF0-8FE3-F2B949EC7028}" infoID="1610678274" infoControlName="Web Testing Events" infoEventName="OnWebDownloadStarted" infoEventRealName="OnWebDownloadStarted" infoDescription="Occurs after the downloading of a Web page has been started." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{17CEDA71-1EFE-4CF0-8FE3-F2B949EC7028}" infoID="1610678272" infoControlName="Web Testing Events" infoEventName="OnWebPageDownloaded" infoEventRealName="OnWebPageDownloaded" infoDescription="Occurs after the browser loads the specified page or frame." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{17CEDA71-1EFE-4CF0-8FE3-F2B949EC7028}" infoID="1610678276" infoControlName="Web Testing Events" infoEventName="OnWebQuit" infoEventRealName="OnWebQuit" infoDescription="Occurs before the browser is terminated." />
+				<handlerInfo handlerName="EventControl1_OnLogError" handlerMoniker="{B4ABC606-B3E2-45D9-B40B-922CA2A08B29}EventControl1_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

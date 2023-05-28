@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CEC2489F-ECDE-4F42-9ED4-4EB3223B444D}" version="15.0">
+	<nodeData description="Loaded from: http://training.falafel.com/testcompletews/service1.asmx?WSDL" sourceUrl="http://training.falafel.com/testcompletews/service1.asmx?WSDL" documentType="3" hasDocument="True" ignoreNodeOrder="False" ignoreAttributes="False" ignoreNamespaceDeclarations="False" ignorePrefixes="False" subTreeMode="False" extendedLogging="False" />
+</Root>

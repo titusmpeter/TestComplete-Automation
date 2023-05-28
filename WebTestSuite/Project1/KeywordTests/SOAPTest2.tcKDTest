@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{61D0C92C-9CF3-4131-B6A7-FF7EB1191F69}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Action="Multiply">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="intA" DefVarType="3" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="intB" DefVarType="3" VarType="3" ValueType="1" ValueValue="9" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="WebServices.SOAPws4;" />
+				</Data>
+			</Operation>
+			<Operation Type="{FDA9DF5F-1C66-4A52-9963-6D35BFCAF392}">
+				<Data Description="Compares the response of the %p1 web service against the stored data." Checkpoint="Multiply">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="xmlSource" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="WebServices.SOAPws4" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{894504D4-5742-420E-A49C-25DC6044ADC6}" />
+</Root>

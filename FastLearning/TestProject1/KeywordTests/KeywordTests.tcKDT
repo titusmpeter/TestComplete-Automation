@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="SoapAPITest1" key="{6977B7B3-87AC-440C-A5B6-E3025F3A052B}" path="SoapAPITest1.tcKDTest" />
+		<child name="SoapAPITest2" key="{3DB23A62-179F-4945-9B44-A0B24A8F20A4}" path="SoapAPITest2.tcKDTest" />
+	</children>
+</Root>

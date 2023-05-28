@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="LinkClickTest" key="{221CE83C-9BDD-44C0-8323-D26F6252C9AC}" path="LinkClickTest.js" />
+		<child name="WebOrderTest" key="{D598BAC3-77CD-47CD-A6F8-14B521F0385A}" path="WebOrderTest.js" />
+		<child name="SOAPTest4" key="{905C7B1B-34CC-43BE-A58B-73C811A7078F}" path="SOAPTest4.js" />
+		<child name="SOAPTest5" key="{0051A143-1A92-4E08-8142-DB77350B9061}" path="SOAPTest5.js" />
+		<child name="SOAPTest2" key="{A37247C3-52A3-43C4-9716-BB7874F72D3C}" path="SOAPTest2.js" />
+	</children>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="OrdersAppScript" key="{2E705A99-726F-4053-ADF5-BCB98D85E1A4}" path="OrdersAppScript.js" />
+		<child name="OrdersDDTScript" key="{EBD871A9-F558-4109-BD1E-AFE79118ECB5}" path="OrdersDDTScript.js" />
+		<child name="LogDisplayInFoldersScript" key="{74031B65-F3A8-4FB2-A374-4C1FD23E9E8C}" path="LogDisplayInFoldersScript.js" />
+		<child name="Event1" key="{9887201C-C1DF-400C-82A5-08E84012CF48}" path="Event1.js" />
+	</children>
+</Root>

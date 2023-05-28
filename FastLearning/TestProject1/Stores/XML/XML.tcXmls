@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCCFA5F5-AB3B-408F-95C9-61DE90C5FAD5}" version="15.0">
+	<children>
+		<child name="GetPerson" key="{E900C678-9C4E-49D3-A2F5-35FD16F4F482}" path="GetPerson\GetPerson.tcXmlCheckpoint" />
+		<child name="Add" key="{239A441C-D965-445B-AE82-CEA2A91CA2CE}" path="Add\Add.tcXmlCheckpoint" />
+		<child name="HelloWorld" key="{931F68C6-38EE-457F-AA31-58513D1D53ED}" path="HelloWorld\HelloWorld.tcXmlCheckpoint" />
+		<child name="Mult" key="{191FF148-15FE-45F3-A6A4-A57886D4003C}" path="Mult\Mult.tcXmlCheckpoint" />
+	</children>
+</Root>

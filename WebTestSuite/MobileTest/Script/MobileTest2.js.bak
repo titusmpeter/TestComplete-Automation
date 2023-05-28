@@ -1,0 +1,17 @@
+﻿function bitbarConnect() {
+var capabilities = {
+  "platformName": "ANDROID", 
+  "bitbar_target": "android", 
+  "bitbar_findDevice": "true", 
+  "bitbar_device": "Samsung Galaxy A52 -US", 
+  "deviceName": "Samsung Galaxy A52 -US", 
+  "automationName": "UiAutomator2", 
+  "bitbar_app": "172022952"
+  };
+var server = "https://appium.bitbar.com/wd/hub/";
+Mobile.ConnectDevice(server, capabilities);
+
+}
+
+
+

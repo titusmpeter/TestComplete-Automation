@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{0203C99B-637B-4038-BFDE-6808F6F6260E}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Action="GetPerson">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="WebServices.SOAPws3;" />
+				</Data>
+			</Operation>
+			<Operation Type="{FDA9DF5F-1C66-4A52-9963-6D35BFCAF392}">
+				<Data Description="Compares the response of the %p1 web service against the stored data." Checkpoint="GetPerson">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="xmlSource" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="WebServices.SOAPws3" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+				<Data>
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Server URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://eu-desktop-hub.bitbar.com/wd/hub" />
+						<Parameter Name="Tested URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="http://secure.smartbearsoftware.com/samples/TestComplete15/WebOrders/" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;13&quot;,&quot;browserName&quot;:&quot;Safari&quot;,&quot;version&quot;:&quot;16&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{6378D932-D647-43B9-AC22-EEC3B8136E1E}" />
+</Root>

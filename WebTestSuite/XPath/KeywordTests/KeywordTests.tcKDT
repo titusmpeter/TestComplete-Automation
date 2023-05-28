@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="WebOrderXBrowser" key="{D8AF5A92-A5C3-432F-B878-D7E7C6FFEED5}" path="WebOrderXBrowser.tcKDTest" />
+		<child name="mobileTest" key="{EB27271D-C1B0-4638-8C1F-316C3826EDF2}" path="mobileTest.tcKDTest" />
+		<child name="MobileTest2" key="{97A2624B-0578-4435-B3BF-D0F03B8984B4}" path="MobileTest2.tcKDTest" />
+		<child name="WebOrderTest2" key="{FFF84995-5938-4E9A-B57D-3B0EBC02C382}" path="WebOrderTest2.tcKDTest" />
+	</children>
+</Root>

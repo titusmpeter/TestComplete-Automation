@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B80B4499-CFD0-49B8-A39C-3264E9ED9080}" version="15.0">
+	<children>
+		<child name="WebService1" key="{976E081A-B633-4FED-95E3-6F88389546FB}" path="WebService1\WebService1.tcWS" />
+	</children>
+</Root>

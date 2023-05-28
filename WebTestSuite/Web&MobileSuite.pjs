@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{52B270C6-63A1-49CA-843A-CCC9E4A666FA}">
+	<children>
+		<child name="WebServiceTest" key="{319484FB-1594-4278-B7DA-77F8A6430A97}" path="Project1\WebServiceTest.mds" />
+		<child name="XPathTest" key="{7DD0A17D-B2E8-4262-897E-7DC0DC643670}" path="XPath\XPathTest.mds" />
+		<child name="EventsTest" key="{D2782087-C787-4D2F-8481-7751A92D877A}" path="EventsTest\EventsTest.mds" />
+		<child name="MobileTest" key="{AF590C03-F211-446F-B0AF-87725EC97314}" path="MobileTest\MobileTest.mds" />
+	</children>
+	<testItems key="{5CC0EEB8-562F-4FAD-BD12-D454D392E353}">
+		<children>
+			<testItem key="{319484FB-1594-4278-B7DA-77F8A6430A97}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{7DD0A17D-B2E8-4262-897E-7DC0DC643670}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{D2782087-C787-4D2F-8481-7751A92D877A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{AF590C03-F211-446F-B0AF-87725EC97314}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{153734B2-52DC-4994-8C36-034E5858C738}" />
+	<analysis key="{542F088A-2677-4A14-88F4-B915C68ADE30}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

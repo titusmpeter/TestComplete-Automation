@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<GetPersonResponse xmlns="http://tempuri.org/">
+			<GetPersonResult>
+				<Parent>
+					<FirstName>Bob</FirstName>
+					<LastName>Smith</LastName>
+					<DOB>0001-01-01T00:00:00</DOB>
+					<Address1>321 West Main St</Address1>
+					<City>Fort Collins</City>
+					<Zip>80521</Zip>
+				</Parent>
+				<FirstName>Fred</FirstName>
+				<LastName>Smith</LastName>
+				<DOB>1930-07-04T00:00:00</DOB>
+				<Address1>123 Easy Street</Address1>
+				<City>Denver</City>
+				<State>CO</State>
+				<Zip>80002</Zip>
+			</GetPersonResult>
+		</GetPersonResponse>
+	</soap:Body>
+</soap:Envelope>

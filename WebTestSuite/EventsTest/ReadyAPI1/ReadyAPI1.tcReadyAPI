@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" version="15.0">
+	<children>
+		<child name="Test1" key="{CC2811F5-209F-48EF-9324-9C1AA7290A80}" type="SoapUI Test" typeId="{3AE7D26E-11DE-411F-A26E-9C422F421771}" pluginName="ReadyAPI Runner" path="Test1\Test1.tcSoapUINGTest" />
+		<child name="SecureTest1" key="{9688959E-FA3C-417E-ADFD-A7525EF5D8CC}" type="Secure Test" typeId="{38F76CCA-6AA2-4C88-9D23-FD0C0909411F}" pluginName="ReadyAPI Runner" path="SecureTest1\SecureTest1.tcSecureTest" />
+	</children>
+</Root>

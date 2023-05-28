@@ -1,0 +1,16 @@
+﻿function EventControl1_OnLogError(Sender, LogParams)
+{
+  Log.Message("Error occured");
+  LogParams.FontStyle.Bold = true;
+  LogParams.FontColor = clBlue;
+  
+  /* 
+  LogParams.Locked = true;
+  LogParams.Locked = false; 
+  */
+}
+
+function eventTest()
+{
+  Log.Error("Kaabooom!");
+}

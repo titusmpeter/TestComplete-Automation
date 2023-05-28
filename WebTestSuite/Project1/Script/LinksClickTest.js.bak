@@ -1,0 +1,15 @@
+﻿function ClickAllLinks()
+{
+  var page;
+  var links;
+  Browsers.Item(btChrome).Navigate("https://detegoglobal.com/");
+  let browser = Aliases.browser;    
+  page = browser.Page("https://detegoglobal.com/*");
+  links = page.contentDocument.links;
+  
+  for (i=0, i<links.length, i++)
+  {
+    Log.Message(links.item(i).OuterHtml)
+  }
+
+}

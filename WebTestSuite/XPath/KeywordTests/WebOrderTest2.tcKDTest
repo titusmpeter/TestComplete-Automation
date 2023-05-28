@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{11A2EFED-83DB-4001-BFED-565296917F4C}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+				<Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Server URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://us-west-desktop-hub.bitbar.com/wd/hub" />
+						<Parameter Name="Tested URL" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://detegoglobal.com/" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Microsoft Edge&quot;,&quot;version&quot;:&quot;106&quot;,&quot;resolution&quot;:&quot;1280x1024&quot;}" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{4F125269-3B88-4A57-8C11-937FE40A24C1}" />
+</Root>

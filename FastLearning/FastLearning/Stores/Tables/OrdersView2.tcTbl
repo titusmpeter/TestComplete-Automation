@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="OrdersView2">
+		<Source Object="Aliases.Orders.MainForm.OrdersView" />
+		<Columns>
+			<Column>Customer Name</Column>
+			<Column>Product</Column>
+			<Column>Quantity</Column>
+			<Column>Date</Column>
+			<Column>Street</Column>
+			<Column>City</Column>
+			<Column>State</Column>
+			<Column>Zip</Column>
+			<Column>Card</Column>
+			<Column>Card No</Column>
+			<Column>Expiration Date</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Jane</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">5</Cell>
+				<Cell Type="String">06/04/2007</Cell>
+				<Cell Type="String">14</Cell>
+				<Cell Type="String">Nairobi</Cell>
+				<Cell Type="String">Riverside</Cell>
+				<Cell Type="String">100</Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">2233445566</Cell>
+				<Cell Type="String">06/05/2010</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">James</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">5</Cell>
+				<Cell Type="String">06/04/2007</Cell>
+				<Cell Type="String">16</Cell>
+				<Cell Type="String">Washington</Cell>
+				<Cell Type="String">DC</Cell>
+				<Cell Type="String">4300</Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">9933882277</Cell>
+				<Cell Type="String">06/05/2010</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Amani</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">5</Cell>
+				<Cell Type="String">06/04/2007</Cell>
+				<Cell Type="String">1600</Cell>
+				<Cell Type="String">Buffallo</Cell>
+				<Cell Type="String">NY</Cell>
+				<Cell Type="String">900</Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">8844227700</Cell>
+				<Cell Type="String">06/05/2010</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Reign</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">5</Cell>
+				<Cell Type="String">06/04/2007</Cell>
+				<Cell Type="String">456</Cell>
+				<Cell Type="String">Gaborone</Cell>
+				<Cell Type="String">Botswana</Cell>
+				<Cell Type="String">100</Cell>
+				<Cell Type="String">American Express</Cell>
+				<Cell Type="String">6677889900</Cell>
+				<Cell Type="String">06/05/2010</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

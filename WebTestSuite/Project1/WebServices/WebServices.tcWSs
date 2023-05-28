@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B80B4499-CFD0-49B8-A39C-3264E9ED9080}" version="15.0">
+	<children>
+		<child name="SOAPws3" key="{BC68681C-564C-4FBC-8BC7-091E3CCDD1C5}" path="SOAPws3\SOAPws3.tcWS" />
+		<child name="SOAPws4" key="{FC4128E9-C229-4B21-A502-99DD4A39BF6D}" path="SOAPws4\SOAPws4.tcWS" />
+	</children>
+</Root>
